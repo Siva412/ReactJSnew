@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.text-center{
+    text-align: center;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.err-msg{
+    color: red;
+    font-size: 13px;
+}
+.signup-form > div{
+    width: 80%;
+    margin: auto;
+}
+.signup-form .signup-el{
+    width: 45%;
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: top;
+}
+.signup-form .signup-radio div label{
+    margin-right: 20px;
+}
+.signup-form .signup-radio div label input{
+    margin-right: 5px;
+}
+.dash{
+    width: 80%;
+    margin: auto;
+}
+.prod-div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.prod-item{
+    padding: 15px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 30%;
+    flex-grow: 1;
+    cursor: pointer;
+}
+.prod-item:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.buyit-btn, .buyit-btn:hover{
+    background-color: #60157d;
+    color: #fff;
+}
+.checkout-btn{
+    margin-top: 15px;
+}
+.checkout-btn .btn{
+    margin-right: 10px;
+}
+@media (max-width: 500px){
+    .signup-form .signup-el{
+        width: 100%;
+        display: block;
+    }
+    .prod-item{
+        max-width: 100%;
+    }
 }

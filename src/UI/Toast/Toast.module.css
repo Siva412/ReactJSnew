@@ -1,0 +1,10 @@
+.Toast{
+    position: fixed;
+    background-color: #ccc;
+    padding: 4px 15px;
+    color: black;
+    border-radius: 8px;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%, -10%);
+}

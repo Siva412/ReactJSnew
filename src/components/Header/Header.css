@@ -1,0 +1,19 @@
+.app-header{
+    background-color: #60157d;
+    color: white;
+    padding: 10px 5px;
+    margin-bottom: 30px;
+}
+.app-header .cart-item{
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.app-header .logoutbtn{
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    float: right;
+    margin-right: 10px;
+}

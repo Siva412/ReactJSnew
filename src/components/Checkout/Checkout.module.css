@@ -1,0 +1,40 @@
+.Checkout{
+    width: 80%;
+    margin: auto;
+}
+.divTable {
+    display: table;
+    width: auto;
+    border: 1px solid #666666;
+    border-spacing: 2px;
+    margin-bottom: 15px;
+  }
+ .divTableRow {
+    display: table-row;
+    width: auto;
+    clear: both;
+    border-bottom: 1px solid #ccc;
+  }
+.divTableCol {
+    float: left; /* fix for  buggy browsers */
+    display: table-column;         
+    width: 200px; 
+}
+.divTableHeaderRow{
+    background-color: #ccc;
+}
+.closeIcon{
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #b31a1a;
+    color: white;
+    cursor: pointer;
+}
+.TotalPrice{
+    margin-bottom: 15px;
+}
